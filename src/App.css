@@ -1,38 +1,41 @@
+@import url("https://fonts.google.com/specimen/Manrope");
+body {
+  background-color: hsl(218, 23%, 16%);
+}
 .App {
   text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 4%;
+  padding: 1.5rem;
+  font-family: "Cinzel", serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Manrope", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icon-Divider-imgs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+}
+.div-of-dice {
+  background-color:hsl(150, 100%, 66%);
+  padding: 1.2rem;
+  width: 2.4rem;
+  border-radius: 50%; 
+  transition: 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.dice-img {
+  width: 2.2rem;
+  background-color: hsl(150, 100%, 66%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.id-of-advice {
+  color: hsl(150, 100%, 66%);
+}
+.advice-text {
+  color: whitesmoke;
+}
+.div-of-dice:hover{
+  box-shadow: 1px 2px 40px 6px hsl(150, 100%, 66%);
 }
