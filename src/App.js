@@ -13,7 +13,6 @@ function App() {
 
   const randomAdviceFunction = () => {
     axios.get("https://api.adviceslip.com/advice").then((res) => {
-      console.log(res.data.slip);
       setDataFromApi(res.data.slip);
     });
   };
@@ -26,7 +25,7 @@ function App() {
       <h1 className="advice-text">
         <q>{dataFromApi.advice}</q>
       </h1>
-      <div className="icon-Divider-imgs">
+      
         <img src={dividerMobile} className="divider-img" />
         <div className="div-of-dice">
         <img
@@ -36,7 +35,6 @@ function App() {
         />
         </div>
       </div>
-    </div>
   );
 }
 

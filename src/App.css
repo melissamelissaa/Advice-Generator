@@ -3,27 +3,33 @@ body {
   background-color: hsl(218, 23%, 16%);
 }
 .App {
+  margin-top: 13rem;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
   background-color: hsl(217, 19%, 24%);
   border-radius: 4%;
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 2.7rem 1.5rem;
   font-family: "Cinzel", serif;
   font-family: "Lato", sans-serif;
   font-family: "Libre Baskerville", serif;
   font-family: "Manrope", sans-serif;
 }
-.icon-Divider-imgs {
-  display: flex;
+/* .icon-Divider-imgs {
+  display: flex; 
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-}
+  gap: 10rem;
+} */
 .div-of-dice {
   background-color:hsl(150, 100%, 66%);
   padding: 1.2rem;
   width: 2.4rem;
   border-radius: 50%; 
   transition: 0.3s;
+  position: absolute;
+  left: 41.5%;
+  margin: 0 auto;
 }
 
 .dice-img {
@@ -38,4 +44,7 @@ body {
 }
 .div-of-dice:hover{
   box-shadow: 1px 2px 40px 6px hsl(150, 100%, 66%);
+}
+.divider-img {
+  margin-bottom: 2rem;   
 }
