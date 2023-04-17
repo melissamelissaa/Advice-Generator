@@ -1,4 +1,5 @@
 @import url("https://fonts.google.com/specimen/Manrope");
+
 body {
   background-color: hsl(218, 23%, 16%);
 }
@@ -15,12 +16,6 @@ body {
   font-family: "Libre Baskerville", serif;
   font-family: "Manrope", sans-serif;
 }
-/* .icon-Divider-imgs {
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  gap: 10rem;
-} */
 .div-of-dice {
   background-color:hsl(150, 100%, 66%);
   padding: 1.2rem;
@@ -36,15 +31,31 @@ body {
   width: 2.2rem;
   background-color: hsl(150, 100%, 66%);
 }
+
 .id-of-advice {
   color: hsl(150, 100%, 66%);
 }
+
 .advice-text {
   color: whitesmoke;
 }
+
 .div-of-dice:hover{
   box-shadow: 1px 2px 40px 6px hsl(150, 100%, 66%);
 }
+
 .divider-img {
   margin-bottom: 2rem;   
+}
+
+@media(min-height: 100px) {
+.App {
+  width: 30%;
+  margin-left: 32%;
+  margin-right: 30%;
+  margin-top:11rem;
+}
+.div-of-dice {
+  left: 46%;
+}
 }
