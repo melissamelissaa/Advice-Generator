@@ -17,10 +17,10 @@ body {
   font-family: "Manrope", sans-serif;
 }
 .div-of-dice {
-  background-color:hsl(150, 100%, 66%);
+  background-color: hsl(150, 100%, 66%);
   padding: 1.2rem;
   width: 2.4rem;
-  border-radius: 50%; 
+  border-radius: 50%;
   transition: 0.3s;
   position: absolute;
   left: 41.5%;
@@ -40,22 +40,23 @@ body {
   color: whitesmoke;
 }
 
-.div-of-dice:hover{
+.div-of-dice:hover {
   box-shadow: 1px 2px 40px 6px hsl(150, 100%, 66%);
 }
 
 .divider-img {
-  margin-bottom: 2rem;   
+  margin-bottom: 2rem;
+  width: 25vw;
 }
 
-@media(min-height: 100px) {
-.App {
-  width: 30%;
-  margin-left: 32%;
-  margin-right: 30%;
-  margin-top:11rem;
-}
-.div-of-dice {
-  left: 46%;
-}
+@media (min-height: 100px) {
+  .App {
+    width: 30%;
+    margin-left: 32%;
+    margin-right: 30%;
+    margin-top: 11rem;
+  }
+  .div-of-dice {
+    left: 46%;
+  }
 }

@@ -1,7 +1,6 @@
 import "./App.css";
 
 import iconDice from "./Images/icon-dice.svg";
-import dividerDesktop from "./Images/pattern-divider-desktop.svg";
 import dividerMobile from "./Images/pattern-divider-mobile.svg";
 
 import axios from "axios";
@@ -25,16 +24,17 @@ function App() {
       <h1 className="advice-text">
         <q>{dataFromApi.advice}</q>
       </h1>
-      
-        <img src={dividerMobile} className="divider-img" />
-        <div className="div-of-dice">
+
+      <img src={dividerMobile} className="divider-img" alt=""/>
+      <div className="div-of-dice">
         <img
           src={iconDice}
           onClick={randomAdviceFunction}
           className="dice-img"
+          alt=""
         />
-        </div>
       </div>
+    </div>
   );
 }
 
